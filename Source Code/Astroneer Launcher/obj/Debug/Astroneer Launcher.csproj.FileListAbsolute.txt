@@ -1,0 +1,15 @@
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Debug\Astroneer Launcher.exe.config
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Debug\Astroneer Launcher.exe
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Debug\Astroneer Launcher.pdb
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.csproj.AssemblyReference.cache
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.csproj.SuggestedBindingRedirects.cache
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer_Launcher.Properties.Resources.resources
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer_Launcher.Splash.resources
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.csproj.GenerateResource.cache
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.csproj.CoreCompileInputs.cache
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.exe
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer Launcher.pdb
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Debug\Resources\NDAstroneer-Regular.ttf
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer_Launcher.Windows.FirstRun.GetStarted.resources
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer_Launcher.Windows.FirstRun.SetDirectory.resources
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Debug\Astroneer_Launcher.Windows.Main.Dashboard.resources
