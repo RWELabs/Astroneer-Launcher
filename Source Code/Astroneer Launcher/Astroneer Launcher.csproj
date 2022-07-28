@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression.FileSystem" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -96,6 +97,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\FirstRun\SetDirectory.resx">
       <DependentUpon>SetDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Main\Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -160,6 +164,69 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\GameDirExample.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Invalid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Valid.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AstroLoaderWhite.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_GameRunning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_BackingUpSaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_PlayGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Preferences.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_BackUpSaves.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_ManageBackups.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhiteLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_ViewBackups.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_OpenSavesFolder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_PlayGame_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_OpenSavesFolder_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_ViewBackups_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_BackUpSaves_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Preferences_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_ManageBackups_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_Exit_Bold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_LaunchingGame.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
