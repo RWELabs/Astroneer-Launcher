@@ -33,6 +33,42 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Syncfusion.Core.WinForms, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Core.WinForms.20.2.0.40\lib\net46\Syncfusion.Core.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.DataSource.WinForms, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.DataSource.WinForms.20.2.0.40\lib\net46\Syncfusion.DataSource.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Grid.Base.20.2.0.40\lib\net46\Syncfusion.Grid.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Grid.Windows.20.2.0.40\lib\net46\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.GridCommon.WinForms, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.GridCommon.WinForms.20.2.0.40\lib\net46\Syncfusion.GridCommon.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Licensing, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=632609b4d040f6b4, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Licensing.20.2.0.40\lib\net46\Syncfusion.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfListView.WinForms, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SfListView.WinForms.20.2.0.40\lib\net46\Syncfusion.SfListView.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.Base.20.2.0.40\lib\net46\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Shared.Windows.20.2.0.40\lib\net46\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SpellChecker.Base, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.SpellChecker.Base.20.2.0.40\lib\net46\Syncfusion.SpellChecker.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Base, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Tools.Base.20.2.0.40\lib\net46\Syncfusion.Tools.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
+      <HintPath>packages\Syncfusion.Tools.Windows.20.2.0.40\lib\net46\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Compression.FileSystem" />
@@ -73,6 +109,18 @@
     <Compile Include="Windows\Main\Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Preferences\EditAstroDirectory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Preferences\EditAstroDirectory.Designer.cs">
+      <DependentUpon>EditAstroDirectory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Preferences\UserPreferences.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Preferences\UserPreferences.Designer.cs">
+      <DependentUpon>UserPreferences.cs</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Update\Download.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -101,6 +149,13 @@
     <EmbeddedResource Include="Windows\Main\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Preferences\EditAstroDirectory.resx">
+      <DependentUpon>EditAstroDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Preferences\UserPreferences.resx">
+      <DependentUpon>UserPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -227,6 +282,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Button_LaunchingGame.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AstroLoaderBlack.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AstroSpaceBG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Header_Preferences.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Button_BackToDashboard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text_CheckForUpdatesOnStartup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox_Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox_Cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text_BackupSavesAutomatically.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Text_SetChangeDirectory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Checkbox_More.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
