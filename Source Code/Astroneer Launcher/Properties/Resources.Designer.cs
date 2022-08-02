@@ -63,6 +63,26 @@ namespace Astroneer_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Astro_BG_Splash {
+            get {
+                object obj = ResourceManager.GetObject("Astro_BG_Splash", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Astro_BG_Splash2 {
+            get {
+                object obj = ResourceManager.GetObject("Astro_BG_Splash2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AstroBG {
             get {
                 object obj = ResourceManager.GetObject("AstroBG", resourceCulture);
@@ -106,6 +126,16 @@ namespace Astroneer_Launcher.Properties {
         internal static System.Drawing.Bitmap AstroLogoText {
             get {
                 object obj = ResourceManager.GetObject("AstroLogoText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AstroneerLauncher {
+            get {
+                object obj = ResourceManager.GetObject("AstroneerLauncher", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
