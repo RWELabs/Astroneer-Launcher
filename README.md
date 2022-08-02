@@ -1,5 +1,5 @@
 <p align="center">
-<img height=100% src="https://github.com/RWELabs/Astroneer-Launcher/raw/main/web/HeroImage.jpg?raw=true">
+<img width=100% src="https://github.com/RWELabs/Astroneer-Launcher/raw/main/web/HeroImage.jpg?raw=true">
 </p>
 
 # Astroneer Launcher
