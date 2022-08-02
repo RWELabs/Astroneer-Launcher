@@ -118,26 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AstroLoaderBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AstroLoaderBlack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Button_BackToDashboard" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_BackToDashboard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Preferences_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_Preferences_Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Astro_BG_Splash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astro_BG_Splash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Button_PlayGame_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_PlayGame_Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Header_Preferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Header_Preferences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="AstroLauncherLogoText" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AstroLauncherLogoText.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Exit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_Exit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="NDAstroneer_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NDAstroneer-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="CD" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CD.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -154,11 +154,17 @@
   <data name="Button_LaunchingGame" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_LaunchingGame.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="AstroSpaceBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AstroSpaceBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="GameDirExample" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\GameDirExample.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text_CheckForUpdatesOnStartup" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Text_CheckForUpdatesOnStartup.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Checkbox_More" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Checkbox_More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Header_LocateFiles" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Header_LocateFiles.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -169,20 +175,23 @@
   <data name="Header_SetAppPreferencesBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Header_SetAppPreferencesBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Astro_BG_Splash2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Astro_BG_Splash2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="RWE_Labs_BG" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RWE_Labs_BG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="PC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\PC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Header_GetStartedBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Header_GetStartedBlack.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AstroLoaderBlack" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AstroLoaderBlack.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="PC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PC.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="RWE_Labs_White" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\RWE_Labs_White.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_Exit_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_Exit_Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_Preferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_Preferences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,8 +199,8 @@
   <data name="Button_BackUpSaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_BackUpSaves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_Exit_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_Exit_Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NDAstroneer_Regular" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NDAstroneer-Regular.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="AstroLoaderWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\AstroLoaderWhite.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,20 +217,20 @@
   <data name="Button_BackingUpSaves" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_BackingUpSaves.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_ManageBackups" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_ManageBackups.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="Button_GameRunning" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_GameRunning.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="AstroSpaceBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\AstroSpaceBG.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Button_ManageBackups" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_ManageBackups.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Invalid" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Invalid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Text_SetChangeDirectory" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Text_SetChangeDirectory.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Button_ViewBackups" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Button_ViewBackups.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_OpenSavesFolder" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_OpenSavesFolder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -253,13 +262,13 @@
   <data name="WhiteLine" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WhiteLine.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Button_ViewBackups" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Button_ViewBackups.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Header_Preferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Header_Preferences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Button_OpenSavesFolder_Bold" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Button_OpenSavesFolder_Bold.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Checkbox_More" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Checkbox_More.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="AstroneerLauncher" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\AstroneerLauncher.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
