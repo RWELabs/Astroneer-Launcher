@@ -32,6 +32,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>AstroneerLauncher.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Astroneer_Launcher.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Syncfusion.Core.WinForms, Version=20.2460.0.40, Culture=neutral, PublicKeyToken=3d67ed1f87d44c89, processorArchitecture=MSIL">
       <HintPath>packages\Syncfusion.Core.WinForms.20.2.0.40\lib\net46\Syncfusion.Core.WinForms.dll</HintPath>
@@ -154,6 +160,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Preferences\UserPreferences.resx">
       <DependentUpon>UserPreferences.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Update\Download.resx">
+      <DependentUpon>Download.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -312,6 +321,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Checkbox_More.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astro_BG_Splash.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Astro_BG_Splash2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AstroneerLauncher.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AstroneerLauncher.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
