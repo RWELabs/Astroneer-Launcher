@@ -49,6 +49,7 @@ RWE Labs is always open to discussing third party software with the original dev
 
 ## Download
 [Windows Release (Latest)](https://github.com/RWELabs/Astroneer-Launcher/releases/latest)
+
 Designed for Windows 11, compatible with Windows 10 (tested).
 Requires a legitimate copy of Astroneer by System Era Softworks, Inc. [^3]
 
