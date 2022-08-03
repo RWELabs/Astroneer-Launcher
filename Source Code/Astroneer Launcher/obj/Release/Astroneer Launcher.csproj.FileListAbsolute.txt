@@ -40,3 +40,4 @@ C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source 
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.CopyComplete
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.exe
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.pdb
+C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Main.Credits.resources
