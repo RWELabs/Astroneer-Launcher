@@ -12,7 +12,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyCompany("RWE Labs, a subsidiary of Ryan Walpole Enterprises")]
 [assembly: AssemblyProduct("Astroneer Launcher")]
 [assembly: AssemblyCopyright("Copyright © RWE Labs, Ryan Walpole Enterprises - 2022")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("Assets used in this application (including fonts, screenshots and the Astroneer name) are trademarked and/or copyrighted by System Era Softwrks, Inc. This software is not approved or endorsed by System Era Softworks, Inc.")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
