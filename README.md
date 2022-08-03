@@ -4,7 +4,7 @@
 
 # Astroneer Launcher
 
-Astroneer Launcher by RWE Labs is a new game launcher for the System Era game, "Astroneer" that is designed to run the steam version of the game with some additional automated (and manual) features to enhance the experience. It was born after a developer for RWE Labs experienced a corrupted save file during a power outage. It was then that he discovered that the game does not automatically backup saves and that steam cloud overwrites the saves with corrupted saves and doesn't keep a backup either. To combat this, the Astroneer Launcher was born. Astroneer Launcher will launch the game whilst taking a backup of your entire saves collection [^1] [^2] as well as giving you the opportunity to back them up manually whenever you want.
+Astroneer Launcher by RWE Labs is an **unofficial** new game launcher for the System Era game, "Astroneer" that is designed to run the steam version of the game with some additional automated (and manual) features to enhance the experience. It was born after a developer for RWE Labs experienced a corrupted save file during a power outage. It was then that he discovered that the game does not automatically backup saves and that steam cloud overwrites the saves with corrupted saves and doesn't keep a backup either. To combat this, the Astroneer Launcher was born. Astroneer Launcher will launch the game whilst taking a backup of your entire saves collection [^1] [^2] as well as giving you the opportunity to back them up manually whenever you want.
 
 <i>Portions of the materials used are trademarks and/or copyrighted works of System Era Softworks, Inc.  
 All rights reserved by System Era Softworks, Inc.
