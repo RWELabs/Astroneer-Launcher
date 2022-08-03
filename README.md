@@ -25,7 +25,14 @@ Astroneer Launcher was designed to protect your save files by giving you access 
 2. Enjoy the convenience of knowing your saves are backed up every single time you launch the game. [^1] [^2]
 
 ## Documentation
-We're currently building our technical documentation to include some step-by-step guides on how to use Astroneer Launcher and it's features, as well as the setup and installation process.
+- [Technical Documentation for Astroneer Launcher](https://rwe-labs.gitbook.io/astrolauncher/)
+### Download and Install
+- [Downloading the Application](https://rwe-labs.gitbook.io/astrolauncher/getting-started/downloading-the-application)
+- [Installing the Application](https://rwe-labs.gitbook.io/astrolauncher/getting-started/installing-the-application)
+- [Setting up the Application](https://rwe-labs.gitbook.io/astrolauncher/getting-started/setting-up-the-application)
+### Features
+- [Creating a save backup](https://rwe-labs.gitbook.io/astrolauncher/manage-backups/creating-save-backups)
+- [Accessing saves and backups](https://rwe-labs.gitbook.io/astrolauncher/manage-backups/accessing-save-backups)
 
 ## License
 ### Our License Agreement
@@ -52,6 +59,8 @@ RWE Labs is always open to discussing third party software with the original dev
 
 Designed for Windows 11, compatible with Windows 10 (tested).
 Requires a legitimate copy of Astroneer by System Era Softworks, Inc. [^3]
+
+[For help downloading and installing, click here](https://rwe-labs.gitbook.io/astrolauncher/getting-started/downloading-the-application)
 
 ## Credits
 Astroneer Launcher (build product and source code) (C) 2022 - RWE Labs, with the following excluded:
