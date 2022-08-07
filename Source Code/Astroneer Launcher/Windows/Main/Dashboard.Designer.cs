@@ -49,6 +49,10 @@
             this.DoBackup = new System.ComponentModel.BackgroundWorker();
             this.DoBackupManual = new System.ComponentModel.BackgroundWorker();
             this.LoadingIndicator = new System.Windows.Forms.PictureBox();
+            this.CreditsLink = new System.Windows.Forms.LinkLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.HelpLink = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Play)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_ManageBackups)).BeginInit();
@@ -61,13 +65,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.Button_BackupSavesButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingIndicator)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::Astroneer_Launcher.Properties.Resources.AstroLogoText;
-            this.pictureBox1.Location = new System.Drawing.Point(17, 85);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 80);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(285, 50);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -78,7 +83,7 @@
             // 
             this.Button_Play.BackColor = System.Drawing.Color.Transparent;
             this.Button_Play.Image = global::Astroneer_Launcher.Properties.Resources.Button_PlayGame;
-            this.Button_Play.Location = new System.Drawing.Point(12, 159);
+            this.Button_Play.Location = new System.Drawing.Point(12, 154);
             this.Button_Play.Name = "Button_Play";
             this.Button_Play.Size = new System.Drawing.Size(290, 39);
             this.Button_Play.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -92,7 +97,7 @@
             // 
             this.Button_ManageBackups.BackColor = System.Drawing.Color.Transparent;
             this.Button_ManageBackups.Image = global::Astroneer_Launcher.Properties.Resources.Button_ManageBackups;
-            this.Button_ManageBackups.Location = new System.Drawing.Point(12, 200);
+            this.Button_ManageBackups.Location = new System.Drawing.Point(12, 195);
             this.Button_ManageBackups.Name = "Button_ManageBackups";
             this.Button_ManageBackups.Size = new System.Drawing.Size(290, 39);
             this.Button_ManageBackups.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -106,7 +111,7 @@
             // 
             this.Button_OpenSettings.BackColor = System.Drawing.Color.Transparent;
             this.Button_OpenSettings.Image = global::Astroneer_Launcher.Properties.Resources.Button_Preferences;
-            this.Button_OpenSettings.Location = new System.Drawing.Point(12, 241);
+            this.Button_OpenSettings.Location = new System.Drawing.Point(12, 236);
             this.Button_OpenSettings.Name = "Button_OpenSettings";
             this.Button_OpenSettings.Size = new System.Drawing.Size(290, 39);
             this.Button_OpenSettings.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -120,7 +125,7 @@
             // 
             this.Button_Exit.BackColor = System.Drawing.Color.Transparent;
             this.Button_Exit.Image = global::Astroneer_Launcher.Properties.Resources.Button_Exit;
-            this.Button_Exit.Location = new System.Drawing.Point(12, 282);
+            this.Button_Exit.Location = new System.Drawing.Point(12, 277);
             this.Button_Exit.Name = "Button_Exit";
             this.Button_Exit.Size = new System.Drawing.Size(290, 39);
             this.Button_Exit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -134,9 +139,9 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::Astroneer_Launcher.Properties.Resources.RWE_Labs_White;
-            this.pictureBox6.Location = new System.Drawing.Point(725, 368);
+            this.pictureBox6.Location = new System.Drawing.Point(717, 397);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(63, 70);
+            this.pictureBox6.Size = new System.Drawing.Size(71, 70);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
@@ -146,7 +151,7 @@
             this.Version.AutoSize = true;
             this.Version.BackColor = System.Drawing.Color.Transparent;
             this.Version.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.Version.Location = new System.Drawing.Point(124, 393);
+            this.Version.Location = new System.Drawing.Point(124, 424);
             this.Version.Name = "Version";
             this.Version.Size = new System.Drawing.Size(93, 26);
             this.Version.TabIndex = 6;
@@ -157,7 +162,7 @@
             this.AstroVersion.AutoSize = true;
             this.AstroVersion.BackColor = System.Drawing.Color.Transparent;
             this.AstroVersion.ForeColor = System.Drawing.SystemColors.AppWorkspace;
-            this.AstroVersion.Location = new System.Drawing.Point(12, 393);
+            this.AstroVersion.Location = new System.Drawing.Point(12, 424);
             this.AstroVersion.Name = "AstroVersion";
             this.AstroVersion.Size = new System.Drawing.Size(93, 13);
             this.AstroVersion.TabIndex = 7;
@@ -179,9 +184,9 @@
             this.CheckForUpdates.ForeColor = System.Drawing.Color.White;
             this.CheckForUpdates.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.CheckForUpdates.LinkColor = System.Drawing.Color.White;
-            this.CheckForUpdates.Location = new System.Drawing.Point(124, 422);
+            this.CheckForUpdates.Location = new System.Drawing.Point(194, 453);
             this.CheckForUpdates.Name = "CheckForUpdates";
-            this.CheckForUpdates.Size = new System.Drawing.Size(150, 23);
+            this.CheckForUpdates.Size = new System.Drawing.Size(150, 14);
             this.CheckForUpdates.TabIndex = 9;
             this.CheckForUpdates.TabStop = true;
             this.CheckForUpdates.Text = "Check for Updates";
@@ -200,7 +205,7 @@
             this.ManageBackups.Controls.Add(this.Button_ViewBackups);
             this.ManageBackups.Controls.Add(this.Button_BackupSavesButton);
             this.ManageBackups.Controls.Add(this.pictureBox2);
-            this.ManageBackups.Location = new System.Drawing.Point(190, 200);
+            this.ManageBackups.Location = new System.Drawing.Point(190, 195);
             this.ManageBackups.Name = "ManageBackups";
             this.ManageBackups.Size = new System.Drawing.Size(310, 133);
             this.ManageBackups.TabIndex = 10;
@@ -272,24 +277,81 @@
             // 
             this.LoadingIndicator.BackColor = System.Drawing.Color.Transparent;
             this.LoadingIndicator.Image = global::Astroneer_Launcher.Properties.Resources.AstroLoaderWhite;
-            this.LoadingIndicator.Location = new System.Drawing.Point(725, 325);
+            this.LoadingIndicator.Location = new System.Drawing.Point(717, 356);
             this.LoadingIndicator.Name = "LoadingIndicator";
-            this.LoadingIndicator.Size = new System.Drawing.Size(63, 37);
+            this.LoadingIndicator.Size = new System.Drawing.Size(71, 37);
             this.LoadingIndicator.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.LoadingIndicator.TabIndex = 11;
             this.LoadingIndicator.TabStop = false;
             this.LoadingIndicator.Visible = false;
+            // 
+            // CreditsLink
+            // 
+            this.CreditsLink.ActiveLinkColor = System.Drawing.Color.White;
+            this.CreditsLink.BackColor = System.Drawing.Color.Transparent;
+            this.CreditsLink.ForeColor = System.Drawing.Color.White;
+            this.CreditsLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.CreditsLink.LinkColor = System.Drawing.Color.White;
+            this.CreditsLink.Location = new System.Drawing.Point(154, 453);
+            this.CreditsLink.Name = "CreditsLink";
+            this.CreditsLink.Size = new System.Drawing.Size(49, 16);
+            this.CreditsLink.TabIndex = 12;
+            this.CreditsLink.TabStop = true;
+            this.CreditsLink.Text = "Credits";
+            this.CreditsLink.VisitedLinkColor = System.Drawing.Color.White;
+            this.CreditsLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.CreditsLink_LinkClicked);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.Image = global::Astroneer_Launcher.Properties.Resources.Header_UnofficialLauncher;
+            this.pictureBox3.Location = new System.Drawing.Point(17, 48);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(222, 50);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 13;
+            this.pictureBox3.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F);
+            this.label1.ForeColor = System.Drawing.Color.Silver;
+            this.label1.Location = new System.Drawing.Point(13, 377);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(393, 37);
+            this.label1.TabIndex = 14;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // 
+            // HelpLink
+            // 
+            this.HelpLink.ActiveLinkColor = System.Drawing.Color.White;
+            this.HelpLink.BackColor = System.Drawing.Color.Transparent;
+            this.HelpLink.ForeColor = System.Drawing.Color.White;
+            this.HelpLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.HelpLink.LinkColor = System.Drawing.Color.White;
+            this.HelpLink.Location = new System.Drawing.Point(124, 453);
+            this.HelpLink.Name = "HelpLink";
+            this.HelpLink.Size = new System.Drawing.Size(49, 16);
+            this.HelpLink.TabIndex = 15;
+            this.HelpLink.TabStop = true;
+            this.HelpLink.Text = "Help";
+            this.HelpLink.VisitedLinkColor = System.Drawing.Color.White;
+            this.HelpLink.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.HelpLink_LinkClicked);
             // 
             // Dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Astroneer_Launcher.Properties.Resources.AstroBG;
-            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(800, 474);
+            this.Controls.Add(this.CheckForUpdates);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.CreditsLink);
             this.Controls.Add(this.LoadingIndicator);
             this.Controls.Add(this.ManageBackups);
-            this.Controls.Add(this.CheckForUpdates);
             this.Controls.Add(this.buildversion);
             this.Controls.Add(this.AstroVersion);
             this.Controls.Add(this.Version);
@@ -299,10 +361,11 @@
             this.Controls.Add(this.Button_ManageBackups);
             this.Controls.Add(this.Button_Play);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.HelpLink);
             this.DoubleBuffered = true;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximumSize = new System.Drawing.Size(816, 489);
-            this.MinimumSize = new System.Drawing.Size(816, 489);
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Dashboard | Astroneer Launcher";
@@ -319,6 +382,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.Button_BackupSavesButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.LoadingIndicator)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -345,5 +409,9 @@
         private System.ComponentModel.BackgroundWorker DoBackup;
         private System.ComponentModel.BackgroundWorker DoBackupManual;
         private System.Windows.Forms.PictureBox LoadingIndicator;
+        private System.Windows.Forms.LinkLabel CreditsLink;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.LinkLabel HelpLink;
     }
 }
