@@ -88,6 +88,10 @@ namespace Astroneer_Launcher.Windows.FirstRun
 
             SettingsINI.SaveFile(Settings, RichTextBoxStreamType.PlainText);
 
+            Properties.Settings.Default.AstroneerDirectory = Directory.Text;
+            Properties.Settings.Default.FirstRunCompleted = "TRUE";
+            Properties.Settings.Default.Save();
+
             Dashboard db = new Dashboard();
             this.Hide();
             db.Show();
