@@ -109,6 +109,12 @@
     <Compile Include="Windows\FirstRun\SetDirectory.Designer.cs">
       <DependentUpon>SetDirectory.cs</DependentUpon>
     </Compile>
+    <Compile Include="Windows\Main\Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Windows\Main\Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
     <Compile Include="Windows\Main\Dashboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -151,6 +157,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\FirstRun\SetDirectory.resx">
       <DependentUpon>SetDirectory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Windows\Main\Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Windows\Main\Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -333,6 +342,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AstroneerLauncher.ico" />
+    <None Include="Resources\Header_UnofficialLauncher.png" />
+    <None Include="Resources\AstroLauncherTextLogoBlack.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

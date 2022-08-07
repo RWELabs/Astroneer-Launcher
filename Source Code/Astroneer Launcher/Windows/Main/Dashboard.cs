@@ -463,5 +463,16 @@ namespace Astroneer_Launcher.Windows.Main
                 }
             }
         }
+
+        private void CreditsLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Credits cred = new Credits();
+            cred.ShowDialog();
+        }
+
+        private void HelpLink_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Process.Start("https://rwe-labs.gitbook.io/astrolauncher/");
+        }
     }
 }

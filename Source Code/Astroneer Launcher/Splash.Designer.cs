@@ -60,10 +60,10 @@
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.Image = global::Astroneer_Launcher.Properties.Resources.AstroLauncherLogoText;
-            this.pictureBox2.Location = new System.Drawing.Point(-2, 81);
+            this.pictureBox2.Image = global::Astroneer_Launcher.Properties.Resources.Header_UnofficialLauncher;
+            this.pictureBox2.Location = new System.Drawing.Point(45, 81);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(427, 29);
+            this.pictureBox2.Size = new System.Drawing.Size(380, 29);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;

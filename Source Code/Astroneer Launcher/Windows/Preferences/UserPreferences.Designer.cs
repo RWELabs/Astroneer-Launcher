@@ -39,6 +39,7 @@
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.EditAstroDir = new Syncfusion.WinForms.Controls.SfButton();
             this.DeFocus = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Button_Back)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -187,6 +188,18 @@
             this.DeFocus.Text = "button1";
             this.DeFocus.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.25F);
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label1.Location = new System.Drawing.Point(387, 396);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(401, 45);
+            this.label1.TabIndex = 13;
+            this.label1.Text = resources.GetString("label1.Text");
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // UserPreferences
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -194,6 +207,7 @@
             this.BackgroundImage = global::Astroneer_Launcher.Properties.Resources.AstroSpaceBG;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.EditAstroDir);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.SettingsINI);
@@ -234,5 +248,6 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private Syncfusion.WinForms.Controls.SfButton EditAstroDir;
         private System.Windows.Forms.Button DeFocus;
+        private System.Windows.Forms.Label label1;
     }
 }

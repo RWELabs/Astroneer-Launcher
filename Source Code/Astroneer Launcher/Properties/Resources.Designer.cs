@@ -103,6 +103,16 @@ namespace Astroneer_Launcher.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AstroLauncherTextLogoBlack {
+            get {
+                object obj = ResourceManager.GetObject("AstroLauncherTextLogoBlack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap AstroLoaderBlack {
             get {
                 object obj = ResourceManager.GetObject("AstroLoaderBlack", resourceCulture);
@@ -436,6 +446,16 @@ namespace Astroneer_Launcher.Properties {
         internal static System.Drawing.Bitmap Header_SetAppPreferencesBlack {
             get {
                 object obj = ResourceManager.GetObject("Header_SetAppPreferencesBlack", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Header_UnofficialLauncher {
+            get {
+                object obj = ResourceManager.GetObject("Header_UnofficialLauncher", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
