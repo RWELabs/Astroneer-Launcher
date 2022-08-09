@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="VersionNumber" Type="System.String" Scope="User">
-      <Value Profile="(Default)">220801</Value>
+      <Value Profile="(Default)">220802</Value>
     </Setting>
     <Setting Name="AstroneerDirectory" Type="System.String" Scope="User">
       <Value Profile="(Default)" />

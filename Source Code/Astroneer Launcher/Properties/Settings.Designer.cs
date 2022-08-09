@@ -25,7 +25,7 @@ namespace Astroneer_Launcher.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("220801")]
+        [global::System.Configuration.DefaultSettingValueAttribute("220802")]
         public string VersionNumber {
             get {
                 return ((string)(this["VersionNumber"]));

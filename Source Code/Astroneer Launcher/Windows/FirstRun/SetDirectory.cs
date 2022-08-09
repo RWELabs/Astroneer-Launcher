@@ -86,7 +86,13 @@ namespace Astroneer_Launcher.Windows.FirstRun
             SettingsINI.AppendText(Environment.NewLine + "$ADIR=" + Directory.Text);
             SettingsINI.AppendText(Environment.NewLine + "$FRSComplete=TRUE");
 
+            //Save in AppData Settings.ini
             SettingsINI.SaveFile(Settings, RichTextBoxStreamType.PlainText);
+
+            //Save in Application Settings
+            Properties.Settings.Default.AstroneerDirectory = Directory.Text;
+            Properties.Settings.Default.FirstRunCompleted = "TRUE";
+            Properties.Settings.Default.Save();
 
             Dashboard db = new Dashboard();
             this.Hide();
