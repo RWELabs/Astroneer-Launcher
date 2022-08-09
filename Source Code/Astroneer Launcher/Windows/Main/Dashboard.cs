@@ -65,6 +65,8 @@ namespace Astroneer_Launcher.Windows.Main
             Version.Text = "Launcher Version: " + Environment.NewLine + Properties.Settings.Default.VersionNumber;
             AstroVersion.Font = AstroneerRegular8;
             CheckForUpdates.Font = AstroneerRegular8;
+            CreditsLink.Font = AstroneerRegular8;
+            HelpLink.Font = AstroneerRegular8;
 
             //MessageBox.Show(Properties.Settings.Default.AstroneerDirectory + @"\build.version");
 
