@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Astroneer Launcher"
-#define MyAppVersion "220801"
+#define MyAppVersion "220802"
 #define MyAppPublisher "RWE Labs"
 #define MyAppURL "https://labs.ryanwalpole.com/"
 #define MyAppExeName "Astroneer Launcher.exe"
