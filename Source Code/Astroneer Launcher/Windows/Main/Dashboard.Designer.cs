@@ -184,7 +184,7 @@
             this.CheckForUpdates.ForeColor = System.Drawing.Color.White;
             this.CheckForUpdates.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.CheckForUpdates.LinkColor = System.Drawing.Color.White;
-            this.CheckForUpdates.Location = new System.Drawing.Point(194, 453);
+            this.CheckForUpdates.Location = new System.Drawing.Point(202, 453);
             this.CheckForUpdates.Name = "CheckForUpdates";
             this.CheckForUpdates.Size = new System.Drawing.Size(150, 14);
             this.CheckForUpdates.TabIndex = 9;
@@ -292,7 +292,7 @@
             this.CreditsLink.ForeColor = System.Drawing.Color.White;
             this.CreditsLink.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
             this.CreditsLink.LinkColor = System.Drawing.Color.White;
-            this.CreditsLink.Location = new System.Drawing.Point(154, 453);
+            this.CreditsLink.Location = new System.Drawing.Point(157, 453);
             this.CreditsLink.Name = "CreditsLink";
             this.CreditsLink.Size = new System.Drawing.Size(49, 16);
             this.CreditsLink.TabIndex = 12;
