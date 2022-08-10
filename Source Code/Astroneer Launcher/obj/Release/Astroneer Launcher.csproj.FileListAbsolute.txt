@@ -41,3 +41,46 @@ C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source 
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.exe
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.pdb
 C:\Users\rwalpole\Documents\GitHub\Astroneer-Launcher\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Main.Credits.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Resources\NDAstroneer-Regular.ttf
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Astroneer Launcher.exe.config
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Astroneer Launcher.exe
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Astroneer Launcher.pdb
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Core.WinForms.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.DataSource.WinForms.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Grid.Base.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Grid.Windows.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.GridCommon.WinForms.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Licensing.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.SfListView.WinForms.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Shared.Base.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Shared.Windows.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.SpellChecker.Base.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Tools.Base.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Tools.Windows.dll
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Core.WinForms.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.DataSource.WinForms.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Grid.Base.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Grid.Windows.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.GridCommon.WinForms.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.SfListView.WinForms.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Shared.Base.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Shared.Windows.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.SpellChecker.Base.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Tools.Base.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\bin\Release\Syncfusion.Tools.Windows.xml
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.AssemblyReference.cache
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.SuggestedBindingRedirects.cache
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Properties.Resources.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Splash.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.FirstRun.GetStarted.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.FirstRun.SetDirectory.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Main.Credits.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Main.Dashboard.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Preferences.EditAstroDirectory.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Preferences.UserPreferences.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer_Launcher.Windows.Update.Download.resources
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.GenerateResource.cache
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.CoreCompileInputs.cache
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.csproj.CopyComplete
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.exe
+C:\Users\ryanw\Documents\GitHub\Astroneer-Launcher\Source Code\Astroneer Launcher\obj\Release\Astroneer Launcher.pdb
