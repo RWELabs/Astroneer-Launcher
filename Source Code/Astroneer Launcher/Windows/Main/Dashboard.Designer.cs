@@ -316,13 +316,13 @@
             // 
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.25F);
-            this.label1.ForeColor = System.Drawing.Color.Silver;
-            this.label1.Location = new System.Drawing.Point(13, 377);
+            this.label1.ForeColor = System.Drawing.Color.DarkGray;
+            this.label1.Location = new System.Drawing.Point(358, 424);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(393, 37);
+            this.label1.Size = new System.Drawing.Size(353, 43);
             this.label1.TabIndex = 14;
             this.label1.Text = resources.GetString("label1.Text");
-            this.label1.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // HelpLink
             // 
