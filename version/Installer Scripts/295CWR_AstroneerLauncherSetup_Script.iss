@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Astroneer Launcher"
-#define MyAppVersion "220802"
+#define MyAppVersion "230101"
 #define MyAppPublisher "RWE Labs"
 #define MyAppURL "https://labs.ryanwalpole.com/"
 #define MyAppExeName "Astroneer Launcher.exe"
@@ -30,6 +30,8 @@ SetupIconFile=C:\Users\rwalpole\Downloads\AstroneerLauncher.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+UninstallDisplayIcon={app}\{#MyAppExeName}
+UninstallDisplayName=Astroneer Launcher
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
